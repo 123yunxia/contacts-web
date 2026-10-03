@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>通讯录 · 注册</title>
+    <link rel="stylesheet" href="/api/css/app.css">
+</head>
+<body class="center-page">
+<form id="registerForm" class="card">
+    <h1>通讯录 · 注册</h1>
+    <label>用户名 <input id="username" name="username" autocomplete="username" required></label>
+    <label>密　码 <input id="password" name="password" type="password" autocomplete="new-password" required></label>
+    <label>确认密码 <input id="password2" name="password2" type="password" autocomplete="new-password" required></label>
+    <button type="submit">注册并登录</button>
+    <p id="msg" class="msg"></p>
+    <p class="hint">已有账号？<a href="/api/login.html">去登录</a></p>
+</form>
+<script src="/api/js/register.js"></script>
+</body>
+</html>

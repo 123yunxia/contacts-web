@@ -1,0 +1,6 @@
+spring:
+  profiles:
+    active:   dev
+  jackson:
+    deserialization:
+      fail-on-null-for-primitives: false
